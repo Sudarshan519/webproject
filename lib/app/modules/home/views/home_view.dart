@@ -24,7 +24,7 @@ class HomeView extends GetView<HomeController> {
                     : Container(),
                 HomeBody(
                     width: controller.isExpanded.value ? width * .7 : width,
-                    height: height),
+                    ),
               ],
             ),
           ),
