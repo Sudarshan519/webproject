@@ -1,4 +1,3 @@
-
 //drawer
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -52,12 +51,26 @@ class DrawerHome extends StatelessWidget {
             icon: Icons.dashboard,
             activeitems: 4,
           ),
+          SizedBox(
+            height: 20,
+          ),
           DrawerItem(label: 'Products', icon: Icons.menu),
+          SizedBox(
+            height: 20,
+          ),
           DrawerItem(
             label: 'Orders',
             icon: Icons.shopping_cart,
             activeitems: 14,
-          )
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          DrawerItem(
+            label: 'Profile',
+            icon: Icons.shopping_cart,
+            activeitems: 14,
+          ),
         ],
       ),
     );
